@@ -1,5 +1,3 @@
-echo "Hello World"
-
 LOCUST="/usr/local/bin/locust"
 LOCUS_OPTS="-f tasks.py"
 LOCUST_MODE=${LOCUST_MODE:-standalone}
